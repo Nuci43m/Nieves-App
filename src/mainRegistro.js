@@ -1,13 +1,13 @@
 import { onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-auth.js";
 import { getDocs, collection } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-firestore.js";
-import { MostrarListaSeries } from "./app/CRUDSeries.js";
+import { MostrarListaNieves } from "./app/CRUDNieves.js";
 import { revisaSesion } from "./app/revisaSesion.js";
 import { auth, db } from "./app/firebase.js";
 import './app/iniciaSesionEmailAndPass.js'
 import './app/iniciaSesionFacebook.js'
 import './app/iniciaSesionGoogle.js'
 import './app/formularioRegistro.js'
-import './app/subirSeries.js'
+import './app/subirNieve.js'
 import './app/cierreSesion.js'
 
 onAuthStateChanged(auth, async (usuario) => {
@@ -16,14 +16,14 @@ onAuthStateChanged(auth, async (usuario) => {
 
         if (currentPath === '/src/index.html') {
             // Si el usuario está en el index, muestra la lista de manualidades
-            const querySnapshot = await getDocs(collection(db, 'Series'))
-            MostrarListaSeries(querySnapshot.docs);
+            const querySnapshot = await getDocs(collection(db, 'Nieves'))
+            MostrarListaNieves(querySnapshot.docs);
         } else if (currentPath === '/src/Subir Series.html') {
             // Si el usuario está en la interfaz "Subir Manualidades.html", no muestra nada
-            MostrarListaSeries([]);  // Puedes ajustar esto según tu lógica
+            MostrarListaNieves([]);  // Puedes ajustar esto según tu lógica
         }
     } else {
-        MostrarListaSeries([]);  // Puedes ajustar esto según tu lógica
+        MostrarListaNieves([]);  // Puedes ajustar esto según tu lógica
     }
     revisaSesion(usuario);
 });

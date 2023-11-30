@@ -33,7 +33,7 @@
                                 data-bs-target="#Registrarse">REGISTRARSE</a>
                         </li>
                         <li class="nav-item">
-                            <a class="botonesConSesion" id="Mostrar-Manualidades" href="Subir Series.html">REGISTRAR UNA
+                            <a class="botonesConSesion" id="Mostrar-Manualidades" href="Subir Nieves.html">REGISTRAR UNA
                                 SERIE</a>
                         </li>
                         <li class="nav-item">
@@ -56,23 +56,23 @@
     <div class="custom-container">
         <div class="custom-row">
             <div class="custom-col">
-                <ul class="custom-list-group Series"></ul>
+                <ul class="custom-list-group Nieves"></ul>
             </div>
         </div>
     </div>
-
     <!-- MODAL DE ACTUALIZACIÓN -->
-    <div class="modal fade" id="ActualizarSerie" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="ActualizarNieve" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content bg-light text-dark"> <!-- Cambiado a fondo claro y texto oscuro -->
                 <div class="modal-header bg-light"> <!-- Cambiado a fondo claro -->
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Actualizar Serie</h1>
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Actualizar Nieve</h1>
+                    <!-- Actualizado el título -->
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <form id="Formulario-ActualizarSerie">
+                    <form id="Formulario-ActualizarNieve">
                         <div class="mb-3">
-                            <label for="Actualizar-Nombre">Nombre de la Serie</label>
+                            <label for="Actualizar-Nombre">Nombre de la Nieve</label>
                             <input type="text" id="Actualizar-Nombre" class="form-control mb-3"
                                 placeholder="Ingresa el nuevo nombre">
                         </div>
@@ -82,27 +82,27 @@
                                 placeholder="Ingresa el nuevo tipo">
                         </div>
                         <div class="mb-3">
-                            <label for="Actualizar-Duracion">Duración</label>
-                            <input type="text" id="Actualizar-Duracion" class="form-control mb-3"
-                                placeholder="Ingresa la nueva duración">
+                            <label for="Actualizar-LitrosPorEnvase">Litros por Envase</label>
+                            <!-- Cambiado el nombre del campo -->
+                            <input type="text" id="Actualizar-LitrosPorEnvase" class="form-control mb-3"
+                                placeholder="Ingresa los nuevos litros por envase">
                         </div>
                         <div class="mb-3">
-                            <label for="Actualizar-AnoLanzamiento">Año de Lanzamiento</label>
-                            <input type="date" id="Actualizar-AnoLanzamiento" class="form-control mb-3">
+                            <label for="Actualizar-FechaCaducidad">Fecha de Caducidad</label>
+                            <!-- Cambiado el nombre del campo -->
+                            <input type="date" id="Actualizar-FechaCaducidad" class="form-control mb-3">
                         </div>
                         <div class="mb-3">
-                            <label for="Actualizar-Plataforma">Plataforma</label>
-                            <input type="text" id="Actualizar-Plataforma" class="form-control mb-3"
-                                placeholder="Ingresa la nueva plataforma">
+                            <label for="Actualizar-Marca">Marca</label> <!-- Cambiado el nombre del campo -->
+                            <input type="text" id="Actualizar-Marca" class="form-control mb-3"
+                                placeholder="Ingresa la nueva marca">
                         </div>
-                        <button class="btn btn-primary w-100 mb-2 edit Boton-ActualizarSerie">Actualizar</button>
+                        <button class="btn btn-primary w-100 mb-2 edit Boton-ActualizarNieve">Actualizar</button>
                     </form>
                 </div>
             </div>
         </div>
     </div>
-
-
 
     <!-- MODAL DE INICIO DE SESION -->
     <div class="modal fade" id="InicioSesion" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">

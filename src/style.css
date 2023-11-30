@@ -1,28 +1,28 @@
 /* Estilos para la barra de navegación y el cuerpo */
 body {
-    background-color: #ffffff;
+    background-color: #f2f2f2;
     /* Fondo claro */
     color: #333333;
     /* Texto oscuro */
 }
 
 nav {
-    background-color: #007bff;
-    /* Fondo azul */
+    background-color: #4CAF50;
+    /* Fondo verde */
     color: #ffffff;
     /* Texto blanco */
     padding: 15px;
 }
 
 a {
-    color: #007bff;
-    /* Enlaces azules */
+    color: #4CAF50;
+    /* Enlaces verdes */
     text-decoration: none;
 }
 
 #offcanvasNavbar {
-    background-color: #007bff;
-    /* Fondo azul */
+    background-color: #4CAF50;
+    /* Fondo verde */
     color: #ffffff;
     /* Texto blanco */
 }
@@ -52,7 +52,7 @@ a {
 
 .botoneSinSesion:hover,
 .botonesConSesion:hover {
-    background-color: #0056b3;
+    background-color: #45a049;
     /* Cambia el color de fondo al pasar el ratón */
 }
 
@@ -64,6 +64,7 @@ a {
     color: #333333;
     /* Texto oscuro */
     padding: 20px;
+    border-radius: 10px;
 }
 
 .custom-row {
@@ -90,6 +91,7 @@ a {
     margin-bottom: 1rem;
     border: 1px solid #dee2e6;
     padding: 1rem;
+    border-radius: 5px;
 }
 
 .custom-list-group-item h5 {
@@ -131,6 +133,7 @@ a {
     padding: 20px;
     border-radius: 10px;
     margin-top: 20px;
+    border: 1px solid #4CAF50;
 }
 
 .custom-form-label {
@@ -140,11 +143,11 @@ a {
 }
 
 .custom-form-control {
-    background-color: #f8f9fa;
+    background-color: #f2f2f2;
     /* Fondo claro para inputs */
     color: #333333;
     /* Texto oscuro */
-    border: 1px solid #dee2e6;
+    border: 1px solid #4CAF50;
     border-radius: 5px;
     width: 100%;
     padding: 10px;
@@ -157,8 +160,8 @@ a {
 }
 
 .custom-btn-primary {
-    background-color: #007bff;
-    /* Fondo azul */
+    background-color: #4CAF50;
+    /* Fondo verde */
     color: #ffffff;
     /* Texto blanco */
     border: none;
@@ -168,7 +171,7 @@ a {
 }
 
 .custom-btn-primary:hover {
-    background-color: #0056b3;
+    background-color: #45a049;
     /* Cambia el color de fondo al pasar el ratón */
     cursor: pointer;
 }
