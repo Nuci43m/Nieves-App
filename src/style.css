@@ -1,0 +1,184 @@
+/* Estilos para la barra de navegación y el cuerpo */
+body {
+    background-color: #ffffff;
+    /* Fondo claro */
+    color: #333333;
+    /* Texto oscuro */
+}
+
+nav {
+    background-color: #007bff;
+    /* Fondo azul */
+    color: #ffffff;
+    /* Texto blanco */
+    padding: 15px;
+}
+
+a {
+    color: #007bff;
+    /* Enlaces azules */
+    text-decoration: none;
+}
+
+#offcanvasNavbar {
+    background-color: #007bff;
+    /* Fondo azul */
+    color: #ffffff;
+    /* Texto blanco */
+}
+
+#offcanvasNavbar h4 {
+    color: #ffffff;
+    /* Texto blanco */
+}
+
+#offcanvasNavbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+#offcanvasNavbar li {
+    margin-bottom: 10px;
+}
+
+.botoneSinSesion,
+.botonesConSesion {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.botoneSinSesion:hover,
+.botonesConSesion:hover {
+    background-color: #0056b3;
+    /* Cambia el color de fondo al pasar el ratón */
+}
+
+/* Estilos para la lista de manualidades */
+.custom-container {
+    margin-top: 18rem;
+    background-color: #ffffff;
+    /* Fondo claro */
+    color: #333333;
+    /* Texto oscuro */
+    padding: 20px;
+}
+
+.custom-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.custom-col {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.custom-list-group {
+    list-style: none;
+    padding: 0;
+}
+
+.custom-list-group-item {
+    background-color: #ffffff;
+    /* Fondo claro */
+    color: #333333;
+    /* Texto oscuro */
+    margin-bottom: 1rem;
+    border: 1px solid #dee2e6;
+    padding: 1rem;
+}
+
+.custom-list-group-item h5 {
+    margin-bottom: 0.5rem;
+}
+
+.custom-list-group-item p {
+    margin-bottom: 0.25rem;
+}
+
+.custom-list-group-item button {
+    width: 100%;
+}
+
+.custom-list-group-item button.Eliminar-Manualidad {
+    background-color: #dc3545;
+    /* Fondo rojo */
+    color: #ffffff;
+    /* Texto blanco */
+}
+
+.custom-list-group-item button.Actualizar-Manualidad {
+    background-color: #28a745;
+    /* Fondo verde */
+    color: #ffffff;
+    /* Texto blanco */
+}
+
+.custom-list-group-item button:hover {
+    opacity: 0.8;
+}
+
+/* Estilos para el formulario de registro de manualidades */
+#manualidad-form-container {
+    background-color: #ffffff;
+    /* Fondo claro */
+    color: #333333;
+    /* Texto oscuro */
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.custom-form-label {
+    color: #333333;
+    /* Texto oscuro */
+    font-size: 1.2rem;
+}
+
+.custom-form-control {
+    background-color: #f8f9fa;
+    /* Fondo claro para inputs */
+    color: #333333;
+    /* Texto oscuro */
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.custom-btn {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.custom-btn-primary {
+    background-color: #007bff;
+    /* Fondo azul */
+    color: #ffffff;
+    /* Texto blanco */
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+.custom-btn-primary:hover {
+    background-color: #0056b3;
+    /* Cambia el color de fondo al pasar el ratón */
+    cursor: pointer;
+}
+
+/* Estilos responsivos */
+@media (max-width: 767px) {
+
+    .custom-form-label,
+    .custom-form-control,
+    .custom-btn-primary {
+        font-size: 1rem;
+    }
+}
