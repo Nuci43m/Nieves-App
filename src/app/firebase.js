@@ -10,12 +10,12 @@ import { getAuth } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-auth
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-    apiKey: "AIzaSyBkR95SGgVXwzrSnCdjDDiID8G4lfbWWhw",
-    authDomain: "series-app-aj.firebaseapp.com",
-    projectId: "series-app-aj",
-    storageBucket: "series-app-aj.appspot.com",
-    messagingSenderId: "915053245539",
-    appId: "1:915053245539:web:affad8e5898fe613943456"
+    apiKey: "AIzaSyAL6CQRoKIqJw0uYEhSBy-ZMqxOQyMknRk",
+    authDomain: "nieves-app.firebaseapp.com",
+    projectId: "nieves-app",
+    storageBucket: "nieves-app.appspot.com",
+    messagingSenderId: "131619689976",
+    appId: "1:131619689976:web:1e6d79f5fdfa03e901720d"
 };
 
 // Initialize Firebase
